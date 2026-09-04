@@ -216,7 +216,7 @@ export default function Home() {
         <div className="teacher-grid section-shell">
           {teachers.map((teacher, index) => (
             <article className="teacher-card" key={teacher.name}>
-              <div className="teacher-image"><Image src={teacher.image} alt={teacher.name} fill sizes="(max-width: 650px) 50vw, 25vw" /><span>{String(index + 1).padStart(2, '0')}</span></div>
+              <div className="teacher-image"><Image src={teacher.image} alt={teacher.name} style={teacher.name === 'Alberta Soares' ? { objectPosition: 'left center' } : undefined} fill sizes="(max-width: 650px) 50vw, 25vw" /><span>{String(index + 1).padStart(2, '0')}</span></div>
               <div className="teacher-copy"><p>{teacher.role}</p><h3>{teacher.name}</h3></div>
             </article>
           ))}
