@@ -70,10 +70,7 @@ const teachers = [
   { name: 'Alberta Soares', role: 'Piano', image: '/media/prof-alberta-soares.jpg' },
   { name: 'Íris Sarai', role: 'Piano e Combo', image: '/media/prof-iris-sarai.webp' },
   { name: 'Maria Anadon', role: 'Canto', image: '/media/prof-maria-anadon.webp' },
-  { name: 'João Sousa', role: 'Bateria e Combo', image: '/media/prof-joao-sousa.webp' },
-  { name: 'Alê Damasceno', role: 'Bateria, Combo e Teoria', image: '/media/prof-ale-damasceno.png' },
   { name: 'Moisés Fernandes', role: 'Trompete', image: '/media/prof-moises-fernandes.webp' },
-  { name: 'Sara Pestana', role: 'Piano e Voz', image: '/media/prof-sara-pestana.jpg' },
   { name: 'Hugo Lino', role: 'Técnicas de Estúdio', image: '/media/prof-hugo-lino.png' },
   { name: 'Heriberto Rojas', role: 'Baixo, Contrabx, Combo e Música & Tecnologia', image: '/media/prof-heriberto-rojas.jpeg' },
 ];
