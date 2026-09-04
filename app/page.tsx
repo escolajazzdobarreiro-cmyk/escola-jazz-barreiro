@@ -72,7 +72,6 @@ const teachers = [
   { name: 'Maria Anadon', role: 'Canto', image: '/media/prof-maria-anadon.webp' },
   { name: 'João Sousa', role: 'Bateria e Combo', image: '/media/prof-joao-sousa.webp' },
   { name: 'Alê Damasceno', role: 'Bateria, Combo e Teoria', image: '/media/prof-ale-damasceno.png' },
-  { name: 'Bernardo Tinoco', role: 'Saxofone, Teoria e História do Jazz', image: '/media/prof-bernardo-tinoco.webp' },
   { name: 'Moisés Fernandes', role: 'Trompete', image: '/media/prof-moises-fernandes.webp' },
   { name: 'Sara Pestana', role: 'Piano e Voz', image: '/media/prof-sara-pestana.jpg' },
   { name: 'Hugo Lino', role: 'Técnicas de Estúdio', image: '/media/prof-hugo-lino.png' },
@@ -133,7 +132,7 @@ export default function Home() {
           <div className="school-stats" aria-label="A escola em números">
             <div><strong>5</strong><span>percursos de formação</span></div>
             <div><strong>9</strong><span>salas de música</span></div>
-            <div><strong>16</strong><span>docentes</span></div>
+            <div><strong>{teachers.length}</strong><span>docentes</span></div>
           </div>
         </div>
       </section>
